@@ -17,4 +17,7 @@ if menor > meio:
     menor = menor - meio
     meio = menor + meio
     menor = meio - menor
+print("imprimindo numeros em ordem decrescente:")
 print(maior,meio,menor)
+# Caso queira em ordem crescente
+# print(menor,meio,maior)
